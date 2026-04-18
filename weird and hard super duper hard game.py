@@ -12,7 +12,7 @@ answer=input('which bear lives at the northpole? ')
 if answer=='polar bear':
   print('correct!')
   score = score + 1
-xelse:
+else:
   answer=input('sorry wrong answer try again. ')
   if answer=='polar bear':
     print('correct!')
