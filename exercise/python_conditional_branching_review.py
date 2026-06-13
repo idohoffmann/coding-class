@@ -338,9 +338,9 @@ test_average = 91
 
 if test_average >= 95:
     scholarship = "full ride"
-elif test_average >= 88 and test_average <= 95:
+elif test_average >= 88 and test_average < 95:
     scholarship = "half ride"
-elif test_average >= 80 and test_average <= 88:
+elif test_average >= 80 and test_average < 88:
     scholarship = "book stipend"
 else:
     scholarship = "none"
@@ -428,6 +428,7 @@ print()
 print("Reflection Questions")
 print("====================")
 print("1. Which problem had the trickiest boundaries (>, >=, or ranges)?")
+#
 print("2. Why does Python check if / elif conditions from top to bottom?")
 print("3. How is (A and (B or C)) different from ((A and B) or C)? Give an example.")
 print("4. Why might not (A or B) be easier to read than (not A and not B)?")

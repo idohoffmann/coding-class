@@ -7,5 +7,5 @@ Created on Sun Mar  2 13:44:56 2025
 """
 
 while True:
-    print('this is an infinte loop!')
+    print('67')
     # if you wanna stop the infinite code than do ctrl c
